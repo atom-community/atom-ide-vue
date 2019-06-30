@@ -21,10 +21,15 @@
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
     "@commitlint/travis-cli": "^8.0.0",
+    "@semantic-release/apm-config": "^6.0.1",
     "commitlint": "^8.0.0",
     "husky": "^2.7.0",
     "lint-staged": "^8.2.1",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "semantic-release": "^15.13.18"
+  },
+  "release": {
+    "extends": "@semantic-release/apm-config"
   },
   "commitlint": {
     "extends": [
