@@ -17,6 +17,23 @@
     "atom-languageclient": "^0.9.9",
     "vue-language-server": "0.0.56"
   },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@commitlint/travis-cli": "^8.0.0",
+    "commitlint": "^8.0.0",
+    "husky": "^2.7.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "activationHooks": [
     "text.html.vue:root-scope-used"
   ],
