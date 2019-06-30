@@ -22,7 +22,9 @@
     "@commitlint/config-conventional": "^8.0.0",
     "@commitlint/travis-cli": "^8.0.0",
     "commitlint": "^8.0.0",
-    "husky": "^2.7.0"
+    "husky": "^2.7.0",
+    "lint-staged": "^8.2.1",
+    "prettier": "^1.18.2"
   },
   "commitlint": {
     "extends": [
@@ -31,7 +33,16 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "**/*.{js}": [
+        "prettier --write",
+        "git add"
+      ]
     }
   },
   "activationHooks": [
