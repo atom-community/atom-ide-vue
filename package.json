@@ -1,0 +1,88 @@
+{
+  "name": "atom-ide-vue",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Vue language support for Atom IDE",
+  "repository": "https://github.com/atom-ide-community/atom-ide-vue",
+  "keywords": [
+    "atom-package",
+    "atom-ide",
+    "ide-vue"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-languageclient": "^0.9.9",
+    "vue-language-server": "0.0.56"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@commitlint/travis-cli": "^8.0.0",
+    "@semantic-release/apm-config": "^6.0.1",
+    "commitlint": "^8.0.0",
+    "husky": "^2.7.0",
+    "lint-staged": "^8.2.1",
+    "prettier": "^1.18.2",
+    "semantic-release": "^15.13.18"
+  },
+  "release": {
+    "extends": "@semantic-release/apm-config"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "**/*.{js}": [
+        "prettier --write",
+        "git add"
+      ]
+    }
+  },
+  "activationHooks": [
+    "text.html.vue:root-scope-used"
+  ],
+  "enhancedScopes": [
+    "text.html.vue"
+  ],
+  "consumedServices": {
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeLinterV2"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatip"
+      }
+    },
+    "signature-help": {
+      "versions": {
+        "0.1.0": "consumeSignatureHelp"
+      }
+    }
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
+    }
+  }
+}
