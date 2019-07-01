@@ -12,9 +12,9 @@ script:
   - commitlint-travis
 
 stages:
-  - test
-  - name: release
-    if: (NOT type = pull_request) AND branch = master
+ - test
+ - name: release
+   if: (NOT type = pull_request) AND branch = master
 
 jobs:
   include:
@@ -54,7 +54,7 @@ dist: trusty
 addons:
   apt:
     packages:
-      - build-essential
-      - fakeroot
-      - git
-      - libsecret-1-dev
+    - build-essential
+    - fakeroot
+    - git
+    - libsecret-1-dev
