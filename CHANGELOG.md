@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.0.0...v1.1.0) (2019-07-13)
+
+
+### Features
+
+* update vue languge server ([004a31b](https://github.com/atom-ide-community/atom-ide-vue/commit/004a31b))
+
 # 1.0.0 (2019-07-01)
 
 
