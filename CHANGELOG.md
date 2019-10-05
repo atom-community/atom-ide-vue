@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.1.0...v1.1.1) (2019-10-05)
+
+
+### Bug Fixes
+
+* disabled component validation ([db7b22b](https://github.com/atom-ide-community/atom-ide-vue/commit/db7b22b))
+
 # [1.1.0](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.0.0...v1.1.0) (2019-07-13)
 
 
