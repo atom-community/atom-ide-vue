@@ -82,5 +82,35 @@
         "0.1.0": "provideDefinitions"
       }
     }
+  },
+  "configSchema": {
+    "validation": {
+      "title": "Validation",
+      "description": "Linting and error checking. *Requires reload to take effect.*",
+      "type": "object",
+      "properties": {
+        "script": {
+          "title": "Script",
+          "description": "Validate script tag's content (JS, TS)",
+          "type": "boolean",
+          "default": true,
+          "order": 1
+        },
+        "template": {
+          "title": "Template",
+          "description": "Validate template tag's content (HTML)",
+          "type": "boolean",
+          "default": true,
+          "order": 2
+        },
+        "style": {
+          "title": "Style",
+          "description": "Validate style tag's content (CSS, SCSS, Less)",
+          "type": "boolean",
+          "default": true,
+          "order": 3
+        }
+      }
+    }
   }
 }
