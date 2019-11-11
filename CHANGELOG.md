@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.1.1...v1.1.2) (2019-11-11)
+
+
+### Bug Fixes
+
+* invalid languageId preventing Vue files validation ([087d39d](https://github.com/atom-ide-community/atom-ide-vue/commit/087d39d)), closes [#4](https://github.com/atom-ide-community/atom-ide-vue/issues/4)
+
 ## [1.1.1](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.1.0...v1.1.1) (2019-10-05)
 
 
