@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.1.2...v1.1.3) (2019-11-16)
+
+
+### Bug Fixes
+
+* outdated vue language server ([f050fe2](https://github.com/atom-ide-community/atom-ide-vue/commit/f050fe2eff5faa45bd1c6a80613ad62a65bd9376))
+
 ## [1.1.2](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.1.1...v1.1.2) (2019-11-11)
 
 
