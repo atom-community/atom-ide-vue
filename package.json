@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "atom-languageclient": "^0.9.9",
-    "vue-language-server": "0.0.57"
+    "vue-language-server": "0.0.65"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
