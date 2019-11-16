@@ -18,15 +18,15 @@
     "vue-language-server": "0.0.57"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
-    "@commitlint/config-conventional": "^8.0.0",
-    "@commitlint/travis-cli": "^8.0.0",
-    "@semantic-release/apm-config": "^6.0.1",
-    "commitlint": "^8.0.0",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.2.0",
-    "prettier": "^1.18.2",
-    "semantic-release": "^15.13.18"
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@commitlint/travis-cli": "^8.2.0",
+    "@semantic-release/apm-config": "^6.0.2",
+    "commitlint": "^8.2.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.3",
+    "prettier": "^1.19.1",
+    "semantic-release": "^15.13.30"
   },
   "release": {
     "extends": "@semantic-release/apm-config"
