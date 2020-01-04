@@ -88,6 +88,7 @@
       "title": "Validation",
       "description": "Linting and error checking. *Requires reload to take effect.*",
       "type": "object",
+      "order": 1,
       "properties": {
         "script": {
           "title": "Script",
@@ -109,6 +110,19 @@
           "type": "boolean",
           "default": true,
           "order": 3
+        }
+      }
+    },
+    "experimental": {
+      "title": "Experimental",
+      "description": "*Disabled by default. Requires reload to take effect.*",
+      "type": "object",
+      "properties": {
+        "templateInterpolationService": {
+          "title": "Template interpolation service",
+          "description": "Support for diagnostics, references, jump to definition etc. in template",
+          "type": "boolean",
+          "default": false
         }
       }
     }
