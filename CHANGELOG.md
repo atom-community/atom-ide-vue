@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.1.3...v1.2.0) (2020-01-04)
+
+
+### Features
+
+* add template interpolation service config support ([3b7d35a](https://github.com/atom-ide-community/atom-ide-vue/commit/3b7d35a69c7eafd1ffdc237a9a761fff09c2f58a))
+
 ## [1.1.3](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.1.2...v1.1.3) (2019-11-16)
 
 
