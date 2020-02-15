@@ -86,6 +86,11 @@
       "versions": {
         "0.1.0": "provideDefinitions"
       }
+    },
+    "find-references": {
+      "versions": {
+        "0.1.0": "provideFindReferences"
+      }
     }
   },
   "configSchema": {
