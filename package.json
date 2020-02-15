@@ -91,6 +91,11 @@
       "versions": {
         "0.1.0": "provideFindReferences"
       }
+    },
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlines"
+      }
     }
   },
   "configSchema": {
