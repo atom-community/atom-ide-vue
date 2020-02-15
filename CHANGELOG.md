@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.2.0...v1.3.0) (2020-02-15)
+
+
+### Features
+
+* add console service support ([48cbe57](https://github.com/atom-ide-community/atom-ide-vue/commit/48cbe5781e1e684b3e0f4f78f53bc10fcda79614))
+* add outline service support ([6740026](https://github.com/atom-ide-community/atom-ide-vue/commit/67400260b4d222b5c409935274e94e194f810204))
+* add reference finder support ([7335ce2](https://github.com/atom-ide-community/atom-ide-vue/commit/7335ce2558482570516c37094ad0a31aef5ab3bf))
+
 # [1.2.0](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.1.3...v1.2.0) (2020-01-04)
 
 
