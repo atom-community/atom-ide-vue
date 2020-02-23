@@ -14,4 +14,8 @@ Vue language support for [Atom IDE][]
 
 3. [Optional] Install [Atom IDE][] packages
 
+## Contributing
+
+Take a look at [Contributing Guide](CONTRIBUTING.md).
+
 [atom ide]: https://atom-ide-community.github.io/
