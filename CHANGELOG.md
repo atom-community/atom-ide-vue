@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.3.0...v1.3.1) (2020-03-21)
+
+
+### Bug Fixes
+
+* update vls (vue language server) ([32a288b](https://github.com/atom-ide-community/atom-ide-vue/commit/32a288b76da63fb9ed76b6ccdaf33e564c1ff660))
+
 # [1.3.0](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.2.0...v1.3.0) (2020-02-15)
 
 
