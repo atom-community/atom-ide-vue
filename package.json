@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "atom-languageclient": "^0.9.9",
-    "vls": "^0.2.0"
+    "vls": "^0.4.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
