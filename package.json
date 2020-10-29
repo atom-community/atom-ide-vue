@@ -10,6 +10,9 @@
     "ide-vue"
   ],
   "license": "MIT",
+  "scripts": {
+    "format": "prettier --write ."
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
@@ -18,7 +21,7 @@
     "vls": "^0.2.0"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.1.2"
   },
   "activationHooks": [
     "text.html.vue:root-scope-used"
