@@ -18,34 +18,7 @@
     "vls": "^0.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@commitlint/travis-cli": "^8.3.5",
-    "@semantic-release/apm-config": "^8.0.0",
-    "commitlint": "^8.3.5",
-    "husky": "^4.2.3",
-    "lint-staged": "^10.0.8",
-    "prettier": "^1.19.1",
-    "semantic-release": "^17.0.4"
-  },
-  "release": {
-    "extends": "@semantic-release/apm-config"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "**/*.{js}": [
-      "prettier --write"
-    ]
+    "prettier": "^1.19.1"
   },
   "activationHooks": [
     "text.html.vue:root-scope-used"
