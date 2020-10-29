@@ -8,11 +8,11 @@ Vue language support for [Atom IDE][]
 
 1. Install `atom-ide-vue` from Atom's packages repository
 
-  Note: Since Atom comes with [autocomplete+](https://atom.io/packages/autocomplete-plus) package preinstalled, basic suggestions should be available immediately.
+Note: Since Atom comes with [autocomplete+](https://atom.io/packages/autocomplete-plus) package preinstalled, basic suggestions should be available immediately.
 
-2. [Optional] Install [language-vue](https://atom.io/packages/language-vue)
+2. Install [language-vue](https://atom.io/packages/language-vue)
 
-3. [Optional] Install [Atom IDE][] packages
+3. Install [Atom IDE][https://atom.io/packages/atom-ide-base] packages
 
 ## Contributing
 
