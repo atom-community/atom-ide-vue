@@ -1,6 +1,7 @@
 # Contributing
 
 Everyone is welcome to contribute, in whatever form they are comfortable with. For example:
+
 - improve documentation,
 - test features,
 - fix bugs,
@@ -38,7 +39,7 @@ For general information regarding debugging in Atom, take a look at [debugging][
 
 ### Language Server Protocol (LSP)
 
-Atom IDE packages revolve around [language server protocol], for which integration base is provided by [atom-languageclient].  
+Atom IDE packages revolve around [language server protocol], for which integration base is provided by [atom-languageclient].
 
 To log communication between Atom and a language server, dedicated debugging option needs to be set in Atom's configuration, `atom.config.set('core.debugLSP', true)` - e.g. through [init file]. Log entries should be visible in the console, in Developer Tools (`ctrl+shift+i`), e.g.:
 
@@ -47,12 +48,13 @@ TypeScript (Theia) [Started] Starting Theia for some-project
 rpc.sendRequest textDocument/definition sending {textDocument: {…}, position: {…}}
 rpc.sendRequest textDocument/definition received (27ms) [{…}]
 ```
-*Note: "Verbose" log level is required for some entries*
+
+_Note: "Verbose" log level is required for some entries_
 
 [semantic-release]: https://github.com/semantic-release/semantic-release
 [conventional commits]: https://www.conventionalcommits.org/en/v1.0.0
 [commitlint]: https://commitlint.js.org
-[Husky]: https://github.com/typicode/husky
+[husky]: https://github.com/typicode/husky
 [atom-debugging]: https://flight-manual.atom.io/hacking-atom/sections/debugging/
 [atom-languageclient]: https://github.com/atom/atom-languageclient
 [language server protocol]: https://microsoft.github.io/language-server-protocol/
