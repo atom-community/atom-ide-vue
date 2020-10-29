@@ -1,3 +1,11 @@
+# [1.4.0](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.3.1...v1.4.0) (2020-10-29)
+
+
+### Features
+
+* update atom-languageclient to 1 ([2c98d47](https://github.com/atom-ide-community/atom-ide-vue/commit/2c98d47dbaf6d17f649dc6b1c6fa87865302a8d7))
+* update vsl to 0.5.4 ([beca668](https://github.com/atom-ide-community/atom-ide-vue/commit/beca66895955de6e3957e9e63391b3820aa965fa))
+
 ## [1.3.1](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.3.0...v1.3.1) (2020-03-21)
 
 
