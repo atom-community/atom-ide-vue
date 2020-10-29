@@ -11,14 +11,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "postinstall": "apm install language-vue atom-ide-base atom-ide-javascript"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
     "atom-languageclient": "^1.0.0",
-    "atom-package-deps": "7",
     "vls": "^0.5.4"
   },
   "package-deps": [
