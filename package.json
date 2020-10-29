@@ -21,6 +21,11 @@
     "atom-package-deps": "6",
     "vls": "^0.5.4"
   },
+  "package-deps": [
+    "language-vue",
+    "atom-ide-base",
+    "atom-ide-javascript"
+  ],
   "devDependencies": {
     "prettier": "^2.1.2"
   },
