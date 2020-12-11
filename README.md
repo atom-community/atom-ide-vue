@@ -1,4 +1,5 @@
 # atom-ide-vue package
+
 ![CI](https://github.com/atom-ide-community/atom-ide-vue/workflows/CI/badge.svg)
 
 Vue language support for [Atom IDE](https://atom.io/packages/atom-ide-base)
