@@ -17,11 +17,11 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-languageclient": "^1.0.0",
-    "vls": "^0.5.4"
+    "atom-languageclient": "^1.0.3",
+    "vls": "^0.6.2"
   },
   "devDependencies": {
-    "prettier": "^2.1.2"
+    "prettier": "^2.2.1"
   },
   "activationHooks": [
     "text.html.vue:root-scope-used"
