@@ -1,6 +1,6 @@
 dependencies:
   atom-languageclient: 1.0.3
-  vls: 0.5.10
+  vls: 0.6.3
 devDependencies:
   prettier: 2.2.1
 lockfileVersion: 5.2
@@ -915,7 +915,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-gTpR5XQNKFwOd4clxfnhaqvfqMpqEwr4tOtCyz4MtYZX2JYhfr1JvBFKdS+7K/9rfpZR3VLX+YWBbKoxCgS43Q==
-  /vls/0.5.10:
+  /vls/0.6.3:
     dependencies:
       eslint: 7.15.0
       eslint-plugin-vue: 7.2.0_eslint@7.15.0
@@ -927,7 +927,7 @@ packages:
       node: '>=10'
     hasBin: true
     resolution:
-      integrity: sha512-/zXdkUatCptsDGmrEVh0A/LEQ48qEwrKe+7HiIwUOmiz+0DkoHsyf/j6eppXMVRWMcHWopwd9/VTNCRlFf2NFw==
+      integrity: sha512-QxfSfV499FfdrGeWomqG9iVWk04OqT+gFjYTW7a4VARSUA8bbtn/6+RrscESd9CwHjvnbtDxp6uccbQrDQNdIw==
   /vscode-jsonrpc/5.0.1:
     dev: false
     engines:
@@ -987,4 +987,4 @@ packages:
 specifiers:
   atom-languageclient: ^1.0.3
   prettier: ^2.2.1
-  vls: '0.5'
+  vls: ^0.6.3

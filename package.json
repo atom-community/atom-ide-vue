@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "atom-languageclient": "^1.0.3",
-    "vls": "0.5"
+    "vls": "^0.6.3"
   },
   "devDependencies": {
     "prettier": "^2.2.1"
