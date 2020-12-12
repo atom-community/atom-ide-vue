@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.4.1...v1.4.2) (2020-12-12)
+
+
+### Bug Fixes
+
+* downgrade vls to 0.5 ([5465de6](https://github.com/atom-ide-community/atom-ide-vue/commit/5465de6a16ddc971bccfa6a5a6c81efc216e7d55))
+
 ## [1.4.1](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.4.0...v1.4.1) (2020-12-11)
 
 
