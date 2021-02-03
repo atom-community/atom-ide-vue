@@ -18,7 +18,8 @@ jobs:
           version: latest
       - run: |
           pnpm install
-          pnpm bump
+          pnpm i npm-check-updates -g
+          ncu -u
           pnpm install
       - uses: peter-evans/create-pull-request@v2
         with:
