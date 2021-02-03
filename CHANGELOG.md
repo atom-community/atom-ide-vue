@@ -1,3 +1,11 @@
+## [1.4.4](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.4.3...v1.4.4) (2021-02-03)
+
+
+### Bug Fixes
+
+* bump languageclient ([760a968](https://github.com/atom-ide-community/atom-ide-vue/commit/760a9680a237db5e4483f7baefb2ef90bf8a32d1))
+* bump vls and language client ([cb992e0](https://github.com/atom-ide-community/atom-ide-vue/commit/cb992e000ac3f7ce1fca8008e45df963d07869d5))
+
 ## [1.4.3](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.4.2...v1.4.3) (2020-12-12)
 
 
