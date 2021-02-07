@@ -11,7 +11,10 @@
   ],
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test.format": "prettier . --check",
+    "lint": "eslint . --fix",
+    "test.lint": "eslint ."
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
