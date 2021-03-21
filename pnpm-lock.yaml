@@ -1,5 +1,5 @@
 dependencies:
-  atom-languageclient: 1.2.2
+  atom-languageclient: 1.6.0
   vls: 0.7.2
 devDependencies:
   prettier: 2.2.1
@@ -143,16 +143,16 @@ packages:
       atom: '>=1.0.0 <2.0.0'
     resolution:
       integrity: sha512-j7S7QS/G1Fgnl+wDU/ssfp5MxFE9YAcwpZCCmMUbLpOANEJ0+46aTOdHY2HJt5+F76/zGQCv7JwO3Ef1QEQUDA==
-  /atom-languageclient/1.2.2:
+  /atom-languageclient/1.6.0:
     dependencies:
       atom-ide-base: 2.4.0
-      vscode-jsonrpc: 5.0.1
-      vscode-languageserver-protocol: 3.15.3
-      vscode-languageserver-types: 3.15.1
+      vscode-jsonrpc: 6.0.0
+      vscode-languageserver-protocol: 3.16.0
+      vscode-languageserver-types: 3.16.0
       zadeh: 2.0.2
     dev: false
     resolution:
-      integrity: sha512-zqy0y199QhaT2dn2hGMr6ROGBe/TShmkGpJfsbPXc1xvBjGSr+T3YnYuVrxwDJl6Ikl7wWlHPjgewdHfbkKA6g==
+      integrity: sha512-3MtiSWb2opeV0FnGgtN4BcR2bqiUd8h0Ttl7HhBDILylUqspKB30s4f0HAvLYCxxW4eI2krcvmvjn8ezwdNtCQ==
   /atom-package-deps/7.2.2:
     dev: false
     hasBin: true
@@ -1026,23 +1026,23 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-9nKgSPtNxQlc32K5GgZV++MdsCpNuac/SfxnEmVI0DCF4E0Uekj+RUo7Zk6NnA4veiNMN+AEjAIlbXYWPHgX6Q==
-  /vscode-jsonrpc/5.0.1:
+  /vscode-jsonrpc/6.0.0:
     dev: false
     engines:
       node: '>=8.0.0 || >=10.0.0'
     resolution:
-      integrity: sha512-JvONPptw3GAQGXlVV2utDcHx0BiY34FupW/kI6mZ5x06ER5DdPG/tXWMVHjTNULF5uKPOUUD0SaXg5QaubJL0A==
-  /vscode-languageserver-protocol/3.15.3:
+      integrity: sha512-wnJA4BnEjOSyFMvjZdpiOwhSq9uDoK8e/kpRJDTaMYzwlkrhG1fwDIZI94CLsLzlCK5cIbMMtFlJlfR57Lavmg==
+  /vscode-languageserver-protocol/3.16.0:
     dependencies:
-      vscode-jsonrpc: 5.0.1
-      vscode-languageserver-types: 3.15.1
+      vscode-jsonrpc: 6.0.0
+      vscode-languageserver-types: 3.16.0
     dev: false
     resolution:
-      integrity: sha512-zrMuwHOAQRhjDSnflWdJG+O2ztMWss8GqUUB8dXLR/FPenwkiBNkMIJJYfSN6sgskvsF0rHAoBowNQfbyZnnvw==
-  /vscode-languageserver-types/3.15.1:
+      integrity: sha512-sdeUoAawceQdgIfTI+sdcwkiK2KU+2cbEYA0agzM2uqaUy2UpnnGHtWTHVEtS0ES4zHU0eMFRGN+oQgDxlD66A==
+  /vscode-languageserver-types/3.16.0:
     dev: false
     resolution:
-      integrity: sha512-+a9MPUQrNGRrGU630OGbYVQ+11iOIovjCkqxajPa9w57Sd5ruK8WQNsslzpa0x/QJqC8kRc2DUxWjIFwoNm4ZQ==
+      integrity: sha512-k8luDIWJWyenLc5ToFQQMaSrqCHiLwyKPHKPQZ5zz21vM+vIVUSvsRpcbiECH4WR88K2XZqc4ScRcZ7nk/jbeA==
   /vue-eslint-parser/7.6.0_eslint@7.21.0:
     dependencies:
       debug: 4.3.1
@@ -1092,6 +1092,6 @@ packages:
     resolution:
       integrity: sha512-20vaD+PTkqYHuvKMDMfFSOYaw4QB6tLQQteHF2mjhnXfeyP0+sCEaord7mI5QdPwrOnR4TAMi9AS2zBL/HA0BQ==
 specifiers:
-  atom-languageclient: ^1.2.2
+  atom-languageclient: ^1.6.0
   prettier: ^2.2.1
   vls: ^0.7.2
