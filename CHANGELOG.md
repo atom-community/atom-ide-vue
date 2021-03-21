@@ -1,3 +1,10 @@
+## [1.4.6](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.4.5...v1.4.6) (2021-03-21)
+
+
+### Bug Fixes
+
+* update Dependencies ([3a574aa](https://github.com/atom-ide-community/atom-ide-vue/commit/3a574aa8ef62fb6627bb0ee8ac429dc8eda3cdab))
+
 ## [1.4.5](https://github.com/atom-ide-community/atom-ide-vue/compare/v1.4.4...v1.4.5) (2021-03-07)
 
 
