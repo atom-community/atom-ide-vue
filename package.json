@@ -20,8 +20,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-languageclient": "^1.8.3",
-    "vls": "^0.7.2"
+    "atom-languageclient": "^1.14.1",
+    "vls": "^0.7.4"
   },
   "devDependencies": {
     "prettier": "^2.2.1"
